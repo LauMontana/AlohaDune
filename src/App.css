@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.sections{
+  position: relative;
+  top: 70px;
+  scroll-snap-type: y mandatory;
+  scroll-snap-align: start;
+}

@@ -3,7 +3,7 @@ import './inicio.css';
 
 function Inicio() {
   return (
-    <div className='inicio-container'>Inicio</div>
+    <div className='inicio-container' id='Intro'>Inicio</div>
   )
 }
 

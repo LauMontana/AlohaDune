@@ -1,0 +1,61 @@
+.Navbar {
+  width: 100%;
+  height: 85px;
+  background-color: #f5f4eb;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.container span{
+    font-size: 15px;
+    font-weight: 500;
+    color: #582630;
+}
+
+.bx{
+    color: #582630;
+}
+.address{
+    margin-right: 80px;
+}
+
+.Logo img {
+  height: 70px;
+
+}
+
+.hamburger {
+  position: fixed;
+  right: 0;
+   width: 32px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.hamburger span {
+    width: 100%;
+    height: 3px;
+    background: #582630;
+  }

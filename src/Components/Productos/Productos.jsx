@@ -3,7 +3,7 @@ import './productos.css';
 
 function Productos() {
   return (
-    <div className='product-container'>Productos</div>
+    <div className='product-container' id='Productos'>Productos</div>
   )
 }
 
