@@ -4,7 +4,7 @@ import model from "../Img/model.jpg";
 
 function Bienvenida() {
   return (
-    <div className="welcome-container" id="Bienvenido">
+    <div className="welcome-container" id="bienvenido">
       <div className="Titulo">
         <h1>Bienvendio</h1>
       </div>

@@ -1,61 +1,61 @@
-.Navbar {
+.topbar{
   width: 100%;
   height: 85px;
   background-color: #f5f4eb;
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
 }
-.wrapper {
+
+.wrapper{
+  padding: 10px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color:#f5f4eb ;
+}
+
+.navbar-left{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+
+  height: 80px;
 }
 
 .navbar-right{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
+.container {
+  margin-left: 30px;
+  color: #CB643A;
 }
 
-.container span{
-    font-size: 15px;
-    font-weight: 500;
-    color: #582630;
-}
-
-.bx{
-    color: #582630;
-}
-.address{
-    margin-right: 80px;
-}
-
-.Logo img {
-  height: 70px;
-
-}
-
-.hamburger {
-  position: fixed;
-  right: 0;
-   width: 32px;
+.hamburger{
+  width: 32px;
   height: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
-.hamburger span {
-    width: 100%;
-    height: 3px;
-    background: #582630;
-  }
+.linea{
+  width: 100%;
+  height: 3px;
+  background-color: #CB643A;
+  margin-left: 30px;
+  transform-origin: top;
+  transition: all 2s ease;
+  
+}
+
+.activo {
+  background-color: #f5f4eb;
+  color: #CB643A;
+}

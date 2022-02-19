@@ -3,7 +3,7 @@ import './empresa.css';
 
 function Empresa() {
   return (
-    <div className='empresa-container' id='Empresa'>Empresa</div>
+    <div className='empresa-container' id='empresa'>Empresa</div>
   )
 }
 

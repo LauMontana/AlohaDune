@@ -1,18 +1,16 @@
 import React from "react";
 import Logo from "../Img/AlohaLogoCut.png";
-import Phone from "../Img/bxs-phone.svg";
-import Location from "../Img/bx-current-location.svg";
 import './navbar.css';
 
-function Nabvar() {
+function Nabvar({menuAbierto, setMenuAbierto}) {
   return (
-    <div className="Navbar">
+    <div className={"topbar" + (menuAbierto && "activo")}>
       <div className="wrapper">
 
 
         <div className="navbar-left">
-          <a href="#Intro" className="Logo">
-            <img src={Logo} alt="Logo" />
+          <a href="#Intro" className="logo">
+            <img src={Logo} alt="logo" />
           </a>
         </div>
 
@@ -29,7 +27,7 @@ function Nabvar() {
             <span>Calle 7 # 29c - 29, Bogota D.C</span>
           </div>
 
-          <div className="hamburger">
+          <div className="hamburger" onClick={() => setMenuAbierto(!menuAbierto)}>
             <span className="linea"></span>
             <span className="linea"></span>
             <span className="linea"></span>
