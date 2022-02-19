@@ -5,7 +5,7 @@ import model from "../Img/model.jpg";
 function Bienvenida() {
   return (
     <div className="welcome-container" id="bienvenido">
-      <div className="Titulo">
+      <div className="titulo">
         <h1>Bienvendio</h1>
       </div>
 
@@ -29,16 +29,7 @@ function Bienvenida() {
               aspernatur saepe, cumque dolore totam officia iste, earum quam
               corporis odio quisquam asperiores. Eum aliquam necessitatibus
               numquam repudiandae. Molestiae facere impedit vitae unde.
-              Distinctio eligendi molestiae commodi incidunt sit et accusantium.
-              Est libero harum magnam vitae similique, ab cum doloremque sequi
-              deleniti ipsa praesentium quam nobis molestias iste! Soluta,
-              quaerat reprehenderit aspernatur perspiciatis magni error repellat
-              adipisci eius architecto qui optio, sint sapiente facilis
-              provident asperiores nesciunt corporis, vero aut necessitatibus
-              quos iure vitae. Magni ipsam recusandae tenetur. Quaerat rerum
-              tempore harum doloribus corporis cumque veniam aliquid error sint?
-              Quaerat, commodi id corporis, qui nam eveniet assumenda porro
-              delectus eum ipsum sapiente officia. Quo amet minus impedit rerum.
+  
             </p>
           </div>
 
