@@ -1,9 +1,10 @@
 import React from 'react';
 import './menu.css';
 
+
 function Menu({menuAbierto, setMenuAbierto}) {
   return (
-    <div className={'menu' + (menuAbierto && "activo") }>
+    <div className={"menu " + (menuAbierto && "active")}>
         <ul className='menu-container'>
             <li className="menu-item" onClick={() => setMenuAbierto(false)}>
                 <a href="#intro" className="opc-menu" > Inicio </a>

@@ -4,7 +4,7 @@ import './navbar.css';
 
 function Nabvar({menuAbierto, setMenuAbierto}) {
   return (
-    <div className={"topbar" + (menuAbierto && "activo")}>
+    <div className={"topbar " + (menuAbierto && "active")}>
       <div className="wrapper">
 
 
@@ -18,12 +18,12 @@ function Nabvar({menuAbierto, setMenuAbierto}) {
         <div className="navbar-right">
 
           <div className="container">
-          <i class='bx bxs-phone'></i>
+          <i className='bx bxs-phone'></i>
             <span>+57 601 6 85 17 11</span>
           </div>
 
           <div className="container address">
-          <i class='bx bx-current-location'></i>
+          <i className='bx bx-current-location'></i>
             <span>Calle 7 # 29c - 29, Bogota D.C</span>
           </div>
 
