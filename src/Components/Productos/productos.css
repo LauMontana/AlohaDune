@@ -22,7 +22,6 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .row-categorias {
@@ -126,12 +125,38 @@
   }
 }
 
-@media screen and (max-width: 400px) {
-  .imagen .detalles p {
-    font-size: 16px;
+@media screen and (max-width: 800px) {
+  .product-container {
+    width: 620px;
+    height: 300vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
   }
-  .more .read-more,
-  .more .icon-links a i {
-    font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  .product-container {
+    width: 480px;
+    height: 480vw;
+  }
+
+  .product-container h1 {
+    padding-top: 0;
+
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+  .contenedor-galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

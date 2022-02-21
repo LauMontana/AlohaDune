@@ -38,3 +38,44 @@
   text-decoration: none;
   color: #cb643a;
 }
+
+@media screen and (max-width:800px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+  }
+
+  .menu-container{
+    padding-right: 220px;
+    margin-top: 30px;
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width:480px) {
+  .menu {
+    width: 480px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+  }
+  .menu-container{
+    margin-top: 30px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50%;
+  }
+  .menu-item{
+    display: inline;
+  }
+  .opc-menu{
+    font-size: 8px;
+  }
+
+}

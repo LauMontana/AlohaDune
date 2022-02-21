@@ -19,7 +19,7 @@ function Menu({menuAbierto, setMenuAbierto}) {
             </li>
 
             <li className="menu-item" onClick={() => setMenuAbierto(false)}>
-                <a href="#empresa" className="opc-menu"> Acerca de nosotros </a>
+                <a href="#empresa" className="opc-menu"> Empresa </a>
             </li>
         </ul>
     </div>

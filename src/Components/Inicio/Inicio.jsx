@@ -8,14 +8,14 @@ function Inicio() {
   return (
     <div className="inicio-container" id="#inicio">
       <ul className='slider'>
-        <li id="slide1">
-          <img src={p1} alt='slide1'/>
+        <li id="slide1"className='imagen-slide' >
+          <img src={p1} alt='slide' className='slide'/>
         </li>
-        <li id="slide2">
-          <img src={p2} alt='slide1'/>
+        <li id="slide2" className='imagen-slide'>
+          <img src={p2} alt='slide'className='slide'/>
         </li>
-        <li id="slide3">
-          <img src={p3} alt='slide1'/>
+        <li id="slide3" className='imagen-slide'>
+          <img src={p3} alt='slide' className='slide' />
         </li>
       </ul>
       <div className='menu-slider-container'>

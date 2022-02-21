@@ -84,3 +84,22 @@
     padding: 10px;
     margin-top: 10px ;
 }
+@media screen and (max-width:800px) {
+    .empresa-container{
+        width: 620px;
+        height: 250vw;
+        
+    }
+    .wrapper-elements{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .empresa-container{
+        width: 480px;
+        height: 410vw;
+        
+    }
+}
