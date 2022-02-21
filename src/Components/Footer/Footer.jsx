@@ -32,15 +32,21 @@ function Footer() {
 
         <div className="right-footer">
           <h1>Newsletter</h1>
+          <br/>
           <p>
             Inscribete a nuestra newsletter para recibir novedades sobre la
             tienda.
           </p>
+          <br/>
+          <div className="input-container">
+          <input type="email" placeholder="EIngrese su email ..." />
+          <button className="btn-submit"> > </button>
+          </div>
+          
           <div className="social-media">
-            <i className="bx bxl-facebook-square"></i>
-
-            <i className="bx bxl-twitter"></i>
-            <i className="bx bxl-instagram"></i>
+            <i className="bx bxl-facebook-square icon"></i>
+            <i className="bx bxl-twitter icon "></i>
+            <i className="bx bxl-instagram icon"></i>
           </div>
         </div>
       </div>
