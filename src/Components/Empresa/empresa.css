@@ -2,6 +2,7 @@
     width: 100vw;
     height: calc(100vh - 70px);
     background-color: #fff;
+    flex-wrap: wrap;
 }
 .empresa-container h1 {
     padding-top: 20px;
@@ -19,6 +20,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
+    flex-wrap: wrap;
 }
 .derecho{
     flex: 1;
@@ -32,7 +34,7 @@
     align-items: center;
 }
 
-.izquierdo{    width: 33.3%;
+.izquierdo{   
     flex: 1;
     display: flex;
     align-items: center;
@@ -51,7 +53,7 @@
 
 }
 .card:hover{
-    box-shadow: 5px 5px 20 px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
 }
 .card img{

@@ -23,7 +23,7 @@ function Nabvar({menuAbierto, setMenuAbierto}) {
           </div>
 
           <div className="container address">
-          <i className='bx bx-current-location'></i>
+          <i class='bx bx-map'></i>
             <span>Calle 7 # 29c - 29, Bogota D.C</span>
           </div>
 
