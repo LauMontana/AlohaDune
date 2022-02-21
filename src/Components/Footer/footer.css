@@ -2,16 +2,17 @@
   background-color: #E79413;
   position: relative;
   display: flex;
+  flex-wrap: wrap;
 }
-.Footer {
-  display: flex;
-}
+
 
 .footer-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .left-footer {
@@ -127,6 +128,7 @@
     width: 320px;
     height: 280vw;
     display: flex;
+    flex-wrap: wrap;
   }
   .right-footer{
     display: flex;
