@@ -15,7 +15,7 @@ class MapContainer extends Component {
   render() {
     return (
         <LoadScript 
-        googleMapsApiKey="AIzaSyCVIek1nMNnINWCxlrqyIYABWJAt3rqA_Q">
+        googleMapsApiKey={process.env.REACT_APP_GOOGLEMAPS_ID}>
             <GoogleMap
                mapContainerStyle={containerStyle}
                center={center}
