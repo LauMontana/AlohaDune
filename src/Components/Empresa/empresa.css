@@ -102,4 +102,22 @@
         height: 410vw;
         
     }
+    .content{
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    .empresa-container{
+        width: 320px;
+        height: 390vw;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .img-galeria{
+        width: 290px;
+        height: 180px;
+    }
 }

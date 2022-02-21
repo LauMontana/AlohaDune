@@ -1,4 +1,4 @@
-.topbar{
+.topbar {
   width: 100%;
   height: 80px;
   background-color: #f5f4eb;
@@ -6,41 +6,39 @@
   top: 0;
   z-index: 2;
 }
-.topbar:active{
+.topbar:active {
   background-color: #f5f4eb;
-  color: #CB643A;
+  color: #cb643a;
 }
 
-.wrapper{
+.wrapper {
   padding: 10px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color:#f5f4eb ;
+  background-color: #f5f4eb;
 }
 
-.navbar-left{
+.navbar-left {
   display: flex;
   align-items: center;
 }
-.logo img{
-
+.logo img {
   height: 80px;
 }
 
-.navbar-right{
+.navbar-right {
   display: flex;
   flex-direction: row;
-  
 }
 
 .container {
   margin-left: 30px;
-  color: #CB643A;
+  color: #cb643a;
 }
 
 /* Icono de menu */
-.hamburger{
+.hamburger {
   width: 32px;
   height: 25px;
   display: flex;
@@ -50,49 +48,62 @@
   margin-right: 30px;
 }
 
-.linea{
+.linea {
   width: 100%;
   height: 3px;
-  background-color: #CB643A;
+  background-color: #cb643a;
   margin-left: 30px;
   transform-origin: top;
   transition: all 2s ease;
-  
 }
 
-@media screen and (max-width:800px) {
-  .topbar{
+@media screen and (max-width: 800px) {
+  .topbar {
     position: fixed;
     width: 620px;
     height: 120px;
     justify-content: center;
   }
-  .wrapper{
+  .wrapper {
     width: 620px;
   }
-  .container{
+  .container {
     visibility: hidden;
   }
-  .hamburger{
+  .hamburger {
     position: absolute;
     right: 10%;
     top: 30%;
   }
 }
 
-@media screen and (max-width:480px) {
-  .topbar{
+@media screen and (max-width: 480px) {
+  .topbar {
     position: fixed;
     width: 480px;
     height: 120px;
     justify-content: center;
   }
-  .container{
+  .container {
     visibility: hidden;
   }
-  .hamburger{
+  .hamburger {
     position: absolute;
     right: 8%;
-    top: 30%;
+    top: 60%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .topbar {
+    position: fixed;
+    width: 320px;
+    justify-content: space-evenly;
+  }
+  .wrapper {
+    width: inherit;
+  }
+
+  .hamburger {
+    right: 5px;
   }
 }

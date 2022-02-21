@@ -127,3 +127,49 @@ ul.slider li:target {
     padding: 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .inicio-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+  .slider{
+    width: 320px;
+  }
+  .imagen-slide {
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+  }
+
+  li .imagen-slide{
+    width: 288px;
+    height: 300px;
+  }
+  li .imagen-slide{
+    height: 250;
+    padding-bottom: 30px;
+  }
+
+  img .slide{
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+  }
+  .imagen-slide .slide {
+    width: inherit;
+  }
+  .slide {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    left: 0;
+    padding: 0;
+  }
+  .menu-slide {
+    position: absolute;
+    top: -100px;
+    left: 35px;
+  }
+}

@@ -6,7 +6,7 @@ function Bienvenida() {
   return (
     <div className="welcome-container" id="bienvenido">
       <div className="titulo">
-        <h1>Bienvendio</h1>
+        <h1>Bienvenido</h1>
       </div>
 
       {/* contenedor */}
